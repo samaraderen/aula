@@ -17,5 +17,6 @@ thais.listaDeMidias.forEach(midia = > {
 
 static filtrarpor genero(catalogoinstanciado, generoALVO) {
     return catalogoinstaciado.listaDEMidia.filter(
-    m => m. genero.tolowerCase()===generoAI
-)
+    m => m. genero.tolowerCase() === generoAlvo.tolowercase()
+    
+);
