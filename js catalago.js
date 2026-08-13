@@ -12,4 +12,10 @@ container.innerHTML = "";
 thais.listaDeMidias.forEach(midia = > {
 
     container.innerHTML + = midias.obterDadosHtml();
-    ;
+});
+ }//dia 13/08
+
+static filtrarpor genero(catalogoinstanciado, generoALVO) {
+    return catalogoinstaciado.listaDEMidia.filter(
+    m => m. genero.tolowerCase()===generoAI
+)
